@@ -1,0 +1,43 @@
+/* Universal Styles */
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 40px;
+  background-color: #023;
+  color: #88a;
+}
+
+#content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+footer {
+    text-align: right;
+    border-top: 1px solid grey;
+    margin-top: 30px;
+}
+
+h2 {
+  color: #66a;
+}
+
+h3 {
+  color: #68a;
+}
+
+.blobz-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.blobz-icon img {
+  width: 100px;
+}
+
+.clickable {
+  cursor: pointer;
+}

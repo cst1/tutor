@@ -1,0 +1,8 @@
+== Notes ==
+
+-- Debugging Node scripts with Chrome --
+
+Chrome>  about:inspect
+Chrome> open dedicated DevTools for Node
+
+$ node --inspect-brk script.js
