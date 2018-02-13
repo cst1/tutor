@@ -5,51 +5,100 @@
     <title>Computer Science Tutor</title>
 
     <link rel="shortcut icon" href="res/img/favicon.ico" type="image/x-icon">
+    <link href="res/css/reset.css" type="text/css" rel="stylesheet">
     <link href="res/css/style.css" type="text/css" rel="stylesheet">
+
+    <script src="res/js/script.js" type="text/javascript"></script>
+    <script src="res/tp/jquery-3.3.1.js" type="text/javascript"></script>
 
   </head>
   <body>
-    <div class="blobz-icon">
-      <img src="res/img/blobz.png" alt="blobz icon">
-    </div>
 
     <div id="content">
+      <div class="blobz-icon">
+        <img src="res/img/blobz.png" alt="blobz icon">
+      </div>
       <h1> Computer Science Tutor </h1>
-
       <div id="intro">
         <p>
-          Tutoring in Computer Science, offered in the <i>Roseville, CA</i>
-          area.
+          <i>Computer Science tutoring and instruction,
+          offered in and around Roseville, CA</i>.
         </p>
+      </div>
 
-        <h2> Topics </h2>
-
-        <h3> Languages </h3>
-        <ul>
-          <li> Java </li>
-          <li> JavaScript </li>
-          <li> Python </li>
-          <li> Bash (shell) </li>
-          <li> Perl </li>
-          <li> C </li>
+      <div id="tabbed-content">
+        <ul class="tabs">
+          <li> <a id="tab-profile" href="#profile">Profile</a> </li>
+          <li> <a id="tab-topics" href="#topics">Topics</a> </li>
+          <li> <a id="tab-contact" href="#contact">Contact</a> </li>
         </ul>
 
-        <h3> Web Page Design </h3>
-        <ul>
-          <li> HTML </li>
-          <li> CSS </li>
-          <li> JavaScript </li>
-          <li> jQuery </li>
-        </ul>
+        <div class="panes">
+          <div id="profile" class="pane">
+            <div class="pane-content">
+              <h2>About Me</h2>
+              <div class="col left-col">
+                <p>
+                  For over three decades I have developed software professionally,
+                  for IT companies large and small. I am now developing my second
+                  career, this time as a Computer Science Instructor. I have a
+                  Master of Science degree in Computer Science from the
+                  Georgia Institute of Technology (Georgia Tech).
+                </p>
+                <p>
+                  I believe my long experience in the real world of software
+                  development, combined with my recent studies in many interesting
+                  fields of Computer Science, put me in a unique position to teach
+                  students with a depth and richness of knowledge that few other
+                  tutors can match.
+                </p>
+                <p>
+                  I am happy to provide instruction in the practicalities of
+                  programming (Java, Python, JavaScript, C, Assembler, Perl,
+                  Shell, etc.), and web development (HTML, CSS, JavaScript, Node,
+                  jQuery, etc.), or more theoretical topics such as Boolean Logic,
+                  Discrete Structures, Algorithms, Data Abstraction,
+                  Computer Architecture, and more.
+                </p>
+                <p>
+                  Operating Systems and Unix/Linux environments are also a
+                  speciality, with topics such as processes, file systems,
+                  revision control (e.g. git and GitHub), shell scripting and
+                  so on. The Internet, networking and web technologies are also
+                  popular topics. I also have some familiarity with database
+                  technologies (e.g. using SQL).
+                </p>
+              </div>
 
-        <h3> Theory </h3>
-        <ul>
-          <li> Boolean Logic </li>
-          <li> Data Structures </li>
-        </ul>
+              <div class="col right-col">
+                <img src="res/img/simon-cst.png" alt="Simon's profile picture">
+              </div>
+            </div>
+          </div>
 
+          <div id="topics" class="pane">
+            <div class="pane-content">
+
+              <h2>Topics</h2>
+              <p>
+                This tab will list possible topics of instruction.
+              </p>
+            </div>
+          </div>
+
+          <div id="contact" class="pane">
+            <div class="pane-content">
+
+              <h2>Contact Information</h2>
+              <p>
+                Email and phone number will be here.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
+    <script>cst1.init();</script>
   </body>
 </html>
