@@ -148,3 +148,29 @@ i {
 .right-col img {
   width: 140px;
 }
+
+#topic-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 400px;
+  /* border: 1px dashed red; */
+}
+
+.flex-child {
+  padding: 10px;
+  border-left: 1px dotted #458;
+}
+
+.flex-child .group {
+  padding-bottom: 20px;
+}
+
+.flex-child h3 {
+  font-weight: bold;
+}
+.flex-child p {
+  margin: 6px 2px;
+  font-size: 14px;
+}
