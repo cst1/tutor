@@ -57,7 +57,7 @@ i {
 #content {
   position: relative;
   margin: 0 auto;
-  width: 800px;
+  width: 840px;
   /* border: 1px solid white; */
 }
 
@@ -114,12 +114,11 @@ i {
   background-color: #135;
 
   padding: 10px;
-  height: 450px;
+  height: 480px;
 }
 
 .pane {
   display: none;
-
 }
 
 .pane.current {
@@ -144,6 +143,7 @@ i {
 }
 .right-col {
   width: 150px;
+  text-align: right;
 }
 .right-col img {
   width: 140px;
@@ -154,7 +154,7 @@ i {
   flex-direction: row;
   justify-content: space-around;
   align-items: stretch;
-  height: 400px;
+  height: 430px;
   /* border: 1px dashed red; */
 }
 
@@ -173,4 +173,17 @@ i {
 .flex-child p {
   margin: 6px 2px;
   font-size: 14px;
+}
+
+#contact p {
+  margin: 20px 10px;
+}
+
+#contact i {
+  color: #bbd;
+}
+
+#contact a,
+#contact a:visited {
+  color: #bbd;
 }
