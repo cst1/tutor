@@ -149,6 +149,13 @@ i {
   width: 140px;
 }
 
+.right-col code {
+  font-family: Consolas, monaco, monospace;
+  color: #aac;
+  display: block;
+  margin-top: 10px;
+}
+
 #topic-content {
   display: flex;
   flex-direction: row;
