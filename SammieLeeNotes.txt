@@ -1,7 +1,0 @@
-Sammie Lee Notes
-----------------
-
-IDE - IntelliJ : https://www.jetbrains.com/idea/whatsnew/
-Student License : https://www.jetbrains.com/student/
-
-Javadocs : https://docs.oracle.com/javase/8/docs/api/
