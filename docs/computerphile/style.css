@@ -1,0 +1,18 @@
+/* Computerphile Notes Stylesheet */
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #ddf;
+}
+
+a {
+  color: #88d;
+  text-decoration: none;
+}
+
+.listing {
+  border: 1px solid black;
+}
+
+td {
+  padding: 12px;
+}
